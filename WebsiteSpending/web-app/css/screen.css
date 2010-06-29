@@ -1,0 +1,25 @@
+/*	
+-------------------------------------------------------------
+ADMIN CSS
+=============================================================
+Description:	import styles
+Filename:		screen.css ( Admin )	
+Author:			Cimex Media Ltd	2008
+-------------------------------------------------------------	
+*/
+
+@import "_library/reset.css";
+@import "core.css";
+@import "_library/tree.css";
+@import "_library/form.css";
+
+/* DEBUGGING STYLESHEETS 
+@import "assets/css/_library/deprecated.css";
+@import "assets/css/_library/diagnostic.css";
+*/
+
+/* IE5.2 Macintosh \*//*/
+@import "_ie/mac/5.x.css";
+/**/
+
+

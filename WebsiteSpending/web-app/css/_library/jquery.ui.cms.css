@@ -1,0 +1,45 @@
+/* font corrections */
+
+.ui-widget { font-family:  "lucida grande", helvetica, arial, verdana, sans-serif;  }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: "lucida grande", helvetica, arial, verdana, sans-serif; }
+
+/* restyle  TABS */
+.ui-tabs.ui-widget.ui-widget-content.ui-corner-all { 
+	border:none!important;
+	padding:0;
+	}
+.ui-corner-top { 
+	-moz-border-radius-topright: 6px!important; 
+	-moz-border-radius-topleft: 6px!important;
+	-webkit-border-top-right-radius: 6px!important;
+	-webkit-border-top-left-radius: 6px!important;
+	}
+.ui-widget-content .ui-state-default { background-image:none!important;}
+div.ui-tabs-panel.ui-widget-content.ui-corner-bottom { padding:0;}
+
+
+ul.ui-tabs-nav { 
+	border:none!important;
+	background:transparent;
+	margin-bottom:15px;
+	padding:0!important;
+	}
+	ul.ui-tabs-nav  li { 
+		border:none!important;
+		background:#ccc;
+		background-image:none!important;
+		margin-right:10px!important;
+		font-weight:bold!important;
+		}
+		ul.ui-tabs-nav  li a { 
+			font-size:1.1em;
+			padding:4px 10px!important;
+			}
+		ul.ui-tabs-nav  li.ui-state-active {
+			background:#333;
+			padding:0!important;
+			}
+			ul.ui-tabs-nav  li.ui-state-active a { 
+				color:#fff!important;
+				}
+				ul.ui-tabs-nav li em { font-style:normal; font-weight:normal; font-size:0.85em; }

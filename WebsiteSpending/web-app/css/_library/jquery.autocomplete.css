@@ -1,0 +1,54 @@
+.ac_input {
+	width: 200px;
+}
+.ac_results {
+	padding: 5px;
+	margin-left:1px;
+	border: none;
+	background-color: #000;
+	opacity: 0.9;
+	overflow: hidden;
+	-moz-border-radius: 0 0 6px 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	border-radius: 0 0 6px 6px;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results iframe {
+	display:none;/*sorry for IE5*/
+	display/**/:block;/*sorry for IE5*/
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	width:3000px;
+	height:3000px;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: pointer;
+	display: block;
+	color:#fff;
+	width: 100%;
+	font-size: 12px;
+	overflow: hidden;
+	text-shadow: #000 1pt 1pt; 
+}
+.ac_results li em { display:block; color:#ccc; }
+.ac_loading {
+	background : url('/assets/icons/ajax-loader.gif') right center no-repeat;
+}
+.ac_over {
+	background-color: #333;
+	color: #fff;
+}
