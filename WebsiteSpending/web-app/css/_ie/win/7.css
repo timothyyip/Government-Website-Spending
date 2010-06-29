@@ -1,0 +1,20 @@
+/**********************************
+
+Use: Internet Explorer 7 Windows
+Author: Cimex Media Ltd
+
+***********************************/
+
+/* has layout */
+#header ul,
+#navigation,
+#user-block,
+#wrapper, 
+#module-wrapper { zoom: 1; }
+
+
+/* Sizing and positioning */
+
+div#header ul#user-block li { font-size:1.1em; }
+
+input {  padding-bottom: 0.6em; }

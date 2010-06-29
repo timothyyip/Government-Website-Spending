@@ -1,0 +1,205 @@
+/*	
+-------------------------------------------------------------
+ADMIN CSS
+=============================================================
+Description:	form styles
+Filename:		form.css ( Admin )	
+Author:			Cimex Media Ltd	2008
+-------------------------------------------------------------	
+*/
+
+
+/*	
+=============================================================
+DEFAULT STYLES
+-------------------------------------------------------------	
+*/
+
+form {  }
+fieldset { display:block;}
+legend { }
+label { 
+	color:white;
+	margin:0 0 0.3em; 
+	cursor:pointer; 
+	font-size:1.3em!important;
+	font-weight:bold;
+	}
+p label { font-size:1.1em!important; }
+label em { font-weight:normal!important; color:#666; font-size:0.85em; display:block; line-height:1.1em; margin:0.2em 0 0.5em; }
+input,
+textarea {
+	padding:0.2em  0;
+	font-size:1.2em!important;
+}
+textarea { height:4em; }
+textarea.med { height:10em; }
+textarea.lrg { height:15em; }
+select { }
+
+fieldset label,
+fieldset input,
+fieldset textarea,
+fieldset select { display: block; }
+
+select.alt-width { width:60%!important;}
+
+
+/* Admin forms */
+.form-text,
+.form-select {
+	border:1px #ccc solid;
+	padding-left:0.2em;
+}
+.form-text.big { font-size:2.2em!important; font-weight:bold; }
+select.big { font-size:1.85em!important; font-weight:bold; }
+
+input.form-text,
+textarea.form-text,
+select.form-select  { width:99.2%;   }
+select.form-select { padding:0.3em; background:#fff; color:#333; }
+
+input.form-text:focus,
+textarea.form-text:focus,
+select.form-select:focus { border-color:#666; background:#ffc; color:#333;}
+
+input.form-text.blur { color:#666!important; font-style:italic;}
+
+input.search-button { width:140px; border-style:solid; border-width:2px; border-color:#bbb #ddd #ddd #bbb; background:#ccc; text-transform:uppercase; }
+
+input.disabled,
+input.disabled:focus { border-color:#ccc; background:#EEEEEE;color:#666;  }
+
+.field-wrapper { background:#eee;   padding:10px 15px!important; margin-bottom:15px; }
+
+input.image { 
+margin-bottom:0;
+vertical-align:middle;
+}
+
+label.bool { font-weight:normal; }
+label.bool input { 
+	display:inline!important; 
+	margin:1px 0 0;
+	vertical-align:top;
+	width:auto !important;
+	}
+
+/* checkboxes */
+fieldset p label.checkbox input { margin-left:10px;}
+fieldset p label.checkbox, fieldset p label.checkbox input { display:inline!important; }
+
+/* alt styles - for 2 col form inputs */
+fieldset p.alt { width:48%; }
+fieldset p label em ,
+fieldset p.alt label em {  display:inline!important; margin-left:5px; }
+fieldset p.alt.margin-r { padding-right:4px; }
+fieldset p.alt input.short{ width:100%; }
+
+
+.checkbox label, .checkbox input { display:inline;}
+
+
+/* module-b */
+#module-b fieldset.box {
+	padding:10px; background:#fff; border:1px #ccc solid; margin:0 0 1em; 
+}
+#module-b fieldset.box.alt {
+	padding:10px; background:#eee; /*color:#fff; border:none*/
+}
+
+
+/* buttons */
+
+.button {
+	cursor:pointer;
+	background:#666;
+	color:#fff;
+	border:none;
+	width:auto!important;
+	text-shadow: #000 1pt 1pt;
+	padding:6px 10px 6px;
+	font-weight:bold; 
+}
+.button:hover { background:#333!important; border-color:#333;}
+.button:focus { background:#666!important; outline: none;}
+
+
+/* LOGIN STYLES */
+
+body#login fieldset { background:#fff; padding:15px; }
+	body#login fieldset p { margin:0; }
+	body#login .form-text {
+		border:2px #ccc solid;
+	}
+/* SITE SETTINGS STYLES */
+#site-settings fieldset { }
+#site-settings input,
+#site-settings select,
+#site-settings textarea { }
+
+
+/* STYLED SELECTS */
+.styledSelect {
+	width: 235px;
+	font-size: 1.2em;
+	height: 27px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	background: #FFF url(/assets/admin/images/styled-select.gif) top left no-repeat;
+ 	top:-2px; 
+	left:70px;
+}
+
+.styledSelect.lrg  { 
+	background: #FFF url(/assets/admin/images/styled-select-lrg.gif) top left no-repeat;
+	width:343px;
+	}
+
+.styledSelect ul {
+	list-style: none;
+	padding: 1px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.styledSelect.open ul {
+	border: 1px solid #999;
+	padding: 0px;
+}
+.styledSelect ul li {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 2px 25px 3px 10px;
+	display: block;
+	/*background-color: #EEE;*/
+}
+.styledSelect.open ul li { background-color: #FFF; }
+.styledSelect.open ul li.selected { background-color: #333; color:#fff; }
+.styledSelect.open ul li:hover { background-color: #EEE; color:#333; cursor:pointer; }
+#edit-people-categories {
+	position: absolute;
+	top:4px; 
+	left:320px;
+	}
+ 
+/* Fliter input */
+input#filter, 
+input#search_field  {
+	background: #fff url(/assets/icons/zoom.png) 5px 50%  no-repeat;
+	padding-left:25px;
+	width:60%;
+	float:left;
+	margin-right:10px;
+}
+input[id = "form:search_field"] {
+	background: #fff url(/assets/icons/zoom.png) 5px 50%  no-repeat;
+	padding-left:25px;
+	width:60%;
+	float:left;
+	margin-right:10px;
+}
+ 

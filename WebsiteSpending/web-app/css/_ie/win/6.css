@@ -1,0 +1,34 @@
+/**********************************
+
+Use: Internet Explorer 6 Windows
+Author: Cimex Media Ltd
+
+***********************************/
+
+/* has layout */
+div#header ul,
+div#wrapper, 
+div#module-wrapper,
+div.user-message,
+div.user-message p,
+ul#navigation, ul#navigation li { zoom: 1; }
+
+ 
+
+/* Sizing and positioning */
+
+
+ul#navigation li.shift { margin-top:0; }
+
+div#header ul#user-block li { font-size:1.1em; }
+
+
+/* form adjustments */
+
+input { padding-bottom: 0.6em; }
+
+
+
+@media tty {
+    i{content:"\";/*" "*/}} @import '5.5.css'; /*";}
+    }/* */
