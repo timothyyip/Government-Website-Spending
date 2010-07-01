@@ -1,14 +1,10 @@
-<<<<<<< HEAD
 import org.timothyyip.spend.*
 
-=======
->>>>>>> da42659bd8b94a2adf548f9b9a16488e9c36ac9e
 class BootStrap {
 
     
     def init = { servletContext ->
 
-<<<<<<< HEAD
         new File("websites-central-government-2009-10-v1-0.csv").eachCsvLine { tokens ->
             def counter = 0
             new Details(
@@ -81,18 +77,6 @@ class BootStrap {
                 definitelyNotRecommend: tokens[counter++]
             ).save()
             println Details.count();
-=======
-       new File("websites-central-government-2009-10-v1-0.csv").eachCsvLine { tokens ->
-
-            new org.timothyyip.spend.Details(
-                website : tokens[0],        //website name
-                department : tokens[1],
-                gotEveryThingIWanted: tokens[2],
-                gotMostOfWhatIWanted: tokens[3],
-                gotSomeOfWhatIWanted: tokens[4],
-                gotNoneOfWhatIWanted: tokens[5]
-            ).save() 
->>>>>>> da42659bd8b94a2adf548f9b9a16488e9c36ac9e
         }
     }
     
