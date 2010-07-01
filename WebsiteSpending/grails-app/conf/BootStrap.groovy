@@ -74,7 +74,104 @@ class BootStrap {
                 probablyRecommend: tokens[counter++],
                 notSureRecommend: tokens[counter++],
                 probablyNotRecommend: tokens[counter++],
-                definitelyNotRecommend: tokens[counter++]
+                definitelyNotRecommend: tokens[counter++],
+
+                age_16_19: tokens[counter++],
+                age_20_24: tokens[counter++],
+                age_25_34: tokens[counter++],
+                age_35_44: tokens[counter++],
+                age_45_54: tokens[counter++],
+                age_55_64: tokens[counter++],
+                age_65_74: tokens[counter++],
+                age_74Plus: tokens[counter++],
+                notToSayAge: tokens[counter++],
+
+                sexMale: tokens[counter++],
+                sexFemale: tokens[counter++],
+                notToSaySex: tokens[counter++],
+
+                disabilityYes: tokens[counter++],
+                disabilityNo: tokens[counter++],
+
+                useInternetEveryDay: tokens[counter++],
+                useInternetEveryTwoOrThreeDays: tokens[counter++],
+                useInternetOnceAWeek: tokens[counter++],
+                useInternetOnceAFortnight: tokens[counter++],
+                useInternetOnceAMonth: tokens[counter++],
+                useInternetLessOften: tokens[counter++],
+                useInternetDontKnow: tokens[counter++],
+
+                user_Apr_09: tokens[counter++].replace(",",""),
+                user_May_09: tokens[counter++].replace(",",""),
+                user_Jun_09: tokens[counter++].replace(",",""),
+                user_Jul_09: tokens[counter++].replace(",",""),
+                user_Aug_09: tokens[counter++].replace(",",""),
+                user_Sep_09: tokens[counter++].replace(",",""),
+                user_Oct_09: tokens[counter++].replace(",",""),
+                user_Nov_09: tokens[counter++].replace(",",""),
+                user_Dec_09: tokens[counter++].replace(",",""),
+                user_Jan_10: tokens[counter++].replace(",",""),
+                user_Feb_10: tokens[counter++].replace(",",""),
+                user_Mar_10: tokens[counter++].replace(",",""),
+                user_yearly: tokens[counter++].replace(",",""),
+
+                visit_Apr_09: tokens[counter++].replace(",",""),
+                visit_May_09: tokens[counter++].replace(",",""),
+                visit_Jun_09: tokens[counter++].replace(",",""),
+                visit_Jul_09: tokens[counter++].replace(",",""),
+                visit_Aug_09: tokens[counter++].replace(",",""),
+                visit_Sep_09: tokens[counter++].replace(",",""),
+                visit_Oct_09: tokens[counter++].replace(",",""),
+                visit_Nov_09: tokens[counter++].replace(",",""),
+                visit_Dec_09: tokens[counter++].replace(",",""),
+                visit_Jan_10: tokens[counter++].replace(",",""),
+                visit_Feb_10: tokens[counter++].replace(",",""),
+                visit_Mar_10: tokens[counter++].replace(",",""),
+
+                twoPageVisit_Apr_09: tokens[counter++].replace(",",""),
+                twoPageVisit_May_09: tokens[counter++].replace(",",""),
+                twoPageVisit_Jun_09: tokens[counter++].replace(",",""),
+                twoPageVisit_Jul_09: tokens[counter++].replace(",",""),
+                twoPageVisit_Aug_09: tokens[counter++].replace(",",""),
+                twoPageVisit_Sep_09: tokens[counter++].replace(",",""),
+                twoPageVisit_Oct_09: tokens[counter++].replace(",",""),
+                twoPageVisit_Nov_09: tokens[counter++].replace(",",""),
+                twoPageVisit_Dec_09: tokens[counter++].replace(",",""),
+                twoPageVisit_Jan_10: tokens[counter++].replace(",",""),
+                twoPageVisit_Feb_10: tokens[counter++].replace(",",""),
+                twoPageVisit_Mar_10: tokens[counter++].replace(",",""),
+
+                visitDuration_Apr_09: tokens[counter++].replace(",",""),
+                visitDuration_May_09: tokens[counter++].replace(",",""),
+                visitDuration_Jun_09: tokens[counter++].replace(",",""),
+                visitDuration_Jul_09: tokens[counter++].replace(",",""),
+                visitDuration_Aug_09: tokens[counter++].replace(",",""),
+                visitDuration_Sep_09: tokens[counter++].replace(",",""),
+                visitDuration_Oct_09: tokens[counter++].replace(",",""),
+                visitDuration_Nov_09: tokens[counter++].replace(",",""),
+                visitDuration_Dec_09: tokens[counter++].replace(",",""),
+                visitDuration_Jan_10: tokens[counter++].replace(",",""),
+                visitDuration_Feb_10: tokens[counter++].replace(",",""),
+                visitDuration_Mar_10: tokens[counter++].replace(",",""),
+
+                pageRequest_Apr_09: tokens[counter++].replace(",",""),
+                pageRequest_May_09: tokens[counter++].replace(",",""),
+                pageRequest_Jun_09: tokens[counter++].replace(",",""),
+                pageRequest_Jul_09: tokens[counter++].replace(",",""),
+                pageRequest_Aug_09: tokens[counter++].replace(",",""),
+                pageRequest_Sep_09: tokens[counter++].replace(",",""),
+                pageRequest_Oct_09: tokens[counter++].replace(",",""),
+                pageRequest_Nov_09: tokens[counter++].replace(",",""),
+                pageRequest_Dec_09: tokens[counter++].replace(",",""),
+                pageRequest_Jan_10: tokens[counter++].replace(",",""),
+                pageRequest_Feb_10: tokens[counter++].replace(",",""),
+                pageRequest_Mar_10: tokens[counter++].replace(",",""),
+
+                strategyAndPlanningCosts: tokens[counter++].replace(",",""),
+                strategyAndPlanningComment: tokens[counter++],
+
+                designAndBuildCosts: tokens[counter++].replace(",",""),
+                designAndBuildComment: tokens[counter++]
             ).save()
             println Details.count();
         }
@@ -82,4 +179,6 @@ class BootStrap {
     
     def destroy = {
     }
+
+  
 }

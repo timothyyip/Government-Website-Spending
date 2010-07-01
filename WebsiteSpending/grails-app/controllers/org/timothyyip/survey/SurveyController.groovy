@@ -46,4 +46,17 @@ class SurveyController {
     def recommend= {
         [detailsList:detailsList]
     }
+    def age= {
+        [detailsList:detailsList]
+    }
+    def gender= {
+        [detailsList:detailsList]
+    }
+    def disability= {
+        [detailsList:detailsList]
+    }
+
+    def internetusage= {
+        [detailsList:detailsList]
+    }
 }

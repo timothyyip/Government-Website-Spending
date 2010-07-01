@@ -45,8 +45,8 @@
     jQuery("li.eightitem").mouseover(function(){
             jQuery(this).stop().animate({height:'270px'},{queue:false, duration:600, easing: 'easeOutQuad'})
         });
-    jQuery("li.surveyitem").mouseover(function(){
-            jQuery(this).stop().animate({height:'330px'},{queue:false, duration:600, easing: 'easeOutQuad'})
+    jQuery("li.manyitems").mouseover(function(){
+            jQuery(this).stop().animate({height:'480px'},{queue:false, duration:600, easing: 'easeOutQuad'})
         });
 
         //When mouse is removed
@@ -66,7 +66,7 @@
         <h1>Government web spending</h1>
 
         <ul id="navigation">
-          <li id="surveymenu" class="menuitem surveyitem" >
+          <li id="surveymenu" class="menuitem manyitems" >
             <a href="#" class="corners-sml-t">Survey Data</a>
             <g:link controller="survey" action="gotcontent">Did you get what you wanted from the site?</g:link>
             <g:link controller="survey" action="issatisfied">How satisfied are you with your visit today?</g:link>
@@ -76,7 +76,30 @@
             <g:link controller="survey" action="editorial">Information that was clear and easy to understand</g:link>
             <g:link controller="survey" action="accuracy">Accurate and up to date information</g:link>
             <g:link controller="survey" action="search">Usefulness of site search</g:link>
-            <g:link controller="survey" action="recommend">recommend this website to a?</g:link>
+            <g:link controller="survey" action="recommend">...recommend this website to a...?</g:link>
+            <g:link controller="survey" action="age">User profile: age</g:link>
+            <g:link controller="survey" action="gender">User profile: gender</g:link>
+            <g:link controller="survey" action="disability">User profile: ...limits [to] your daily activities...</g:link>
+            <g:link controller="survey" action="internetusage">User profile: How often do you personally use the Internet?</g:link>
+          </li>
+
+          <li id="statmenu" class="menuitem manyitems" >
+            <a href="#" class="corners-sml-t">Statistical Data</a>
+            <g:link controller="stat" action="user">Unique users</g:link>
+            <g:link controller="stat" action="visit">Visit</g:link>
+            <g:link controller="stat" action="twovisit">Two time visit</g:link>
+            <g:link controller="stat" action="page">Page request/impression</g:link>
+            <g:link controller="stat" action="duration">Visit duration</g:link>
+          </li>
+
+          <li id="costmenu" class="menuitem manyitems" >
+            <a href="#" class="corners-sml-t">Cost Data</a>
+            <g:link controller="extcost" action="planning">Strategy and planning</g:link>
+            <g:link controller="extcost" action="design">Design and build</g:link>
+            <g:link controller="extcost" action="hosting">Hosting and infrastructure</g:link>
+            <g:link controller="extcost" action="content">Content provision</g:link>
+            <g:link controller="extcost" action="testing">Testing and evaluation</g:link>
+            <g:link controller="extcost" action="total">Total cost</g:link>
           </li>
         </ul><!-- /#navigation -->
 

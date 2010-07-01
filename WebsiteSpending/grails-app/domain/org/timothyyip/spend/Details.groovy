@@ -68,6 +68,104 @@ class Details {
         notSureRecommend(nullable:true)
         probablyNotRecommend(nullable:true)
         definitelyNotRecommend(nullable:true)
+
+        age_16_19(nullable:true)
+        age_20_24(nullable:true)
+        age_25_34(nullable:true)
+        age_35_44(nullable:true)
+        age_45_54(nullable:true)
+        age_55_64(nullable:true)
+        age_65_74(nullable:true)
+        age_74Plus(nullable:true)
+        notToSayAge(nullable:true)
+
+        sexMale(nullable:true)
+        sexFemale(nullable:true)
+        notToSaySex(nullable:true)
+
+        disabilityYes(nullable:true)
+        disabilityNo(nullable:true)
+
+        useInternetEveryDay(nullable:true)
+        useInternetEveryTwoOrThreeDays(nullable:true)
+        useInternetOnceAWeek(nullable:true)
+        useInternetOnceAFortnight(nullable:true)
+        useInternetOnceAMonth(nullable:true)
+        useInternetLessOften(nullable:true)
+        useInternetDontKnow(nullable:true)
+
+        user_Apr_09(nullable:true)
+        user_May_09(nullable:true)
+        user_Jun_09(nullable:true)
+        user_Jul_09(nullable:true)
+        user_Aug_09(nullable:true)
+        user_Sep_09(nullable:true)
+        user_Oct_09(nullable:true)
+        user_Nov_09(nullable:true)
+        user_Dec_09(nullable:true)
+        user_Jan_10(nullable:true)
+        user_Feb_10(nullable:true)
+        user_Mar_10(nullable:true)
+        user_yearly(nullable:true)
+
+        visit_Apr_09(nullable:true)
+        visit_May_09(nullable:true)
+        visit_Jun_09(nullable:true)
+        visit_Jul_09(nullable:true)
+        visit_Aug_09(nullable:true)
+        visit_Sep_09(nullable:true)
+        visit_Oct_09(nullable:true)
+        visit_Nov_09(nullable:true)
+        visit_Dec_09(nullable:true)
+        visit_Jan_10(nullable:true)
+        visit_Feb_10(nullable:true)
+        visit_Mar_10(nullable:true)
+
+        twoPageVisit_Apr_09(nullable:true)
+        twoPageVisit_May_09(nullable:true)
+        twoPageVisit_Jun_09(nullable:true)
+        twoPageVisit_Jul_09(nullable:true)
+        twoPageVisit_Aug_09(nullable:true)
+        twoPageVisit_Sep_09(nullable:true)
+        twoPageVisit_Oct_09(nullable:true)
+        twoPageVisit_Nov_09(nullable:true)
+        twoPageVisit_Dec_09(nullable:true)
+        twoPageVisit_Jan_10(nullable:true)
+        twoPageVisit_Feb_10(nullable:true)
+        twoPageVisit_Mar_10(nullable:true)
+
+        visitDuration_Apr_09(nullable:true)
+        visitDuration_May_09(nullable:true)
+        visitDuration_Jun_09(nullable:true)
+        visitDuration_Jul_09(nullable:true)
+        visitDuration_Aug_09(nullable:true)
+        visitDuration_Sep_09(nullable:true)
+        visitDuration_Oct_09(nullable:true)
+        visitDuration_Nov_09(nullable:true)
+        visitDuration_Dec_09(nullable:true)
+        visitDuration_Jan_10(nullable:true)
+        visitDuration_Feb_10(nullable:true)
+        visitDuration_Mar_10(nullable:true)
+
+        pageRequest_Apr_09(nullable:true)
+        pageRequest_May_09(nullable:true)
+        pageRequest_Jun_09(nullable:true)
+        pageRequest_Jul_09(nullable:true)
+        pageRequest_Aug_09(nullable:true)
+        pageRequest_Sep_09(nullable:true)
+        pageRequest_Oct_09(nullable:true)
+        pageRequest_Nov_09(nullable:true)
+        pageRequest_Dec_09(nullable:true)
+        pageRequest_Jan_10(nullable:true)
+        pageRequest_Feb_10(nullable:true)
+        pageRequest_Mar_10(nullable:true)
+
+     strategyAndPlanningCosts(nullable:true)
+     strategyAndPlanningComment(nullable:true)
+
+     designAndBuildCosts(nullable:true)
+     designAndBuildComment(nullable:true)
+
     }
 
 
@@ -140,103 +238,103 @@ class Details {
     Float probablyNotRecommend
     Float definitelyNotRecommend
 
-    //    Float age_16_19
-    //    Float age_20_24
-    //    Float age_25_34
-    //    Float age_35_44
-    //    Float age_45_54
-    //    Float age_55_64
-    //    Float age_65_74
-    //    Float age_74Plus
-    //    Float notToSayAge
-    //
-    //    Float sexMale
-    //    Float sexFemale
-    //    Float notToSaySex
-    //
-    //    Float disabilityYes
-    //    Float disabilityNo
-    //
-    //    Float useInternetEveryDay
-    //    Float useInternetEveryTwoOrThreeDays
-    //    Float useInternetOnceAWeek
-    //    Float useInternetOnceAFortnight
-    //    Float useInternetOnceAMonth
-    //    Float useInternetLessOften
-    //    Float useInternetDontKnow
-    //
-    //    Integer user_Apr_09
-    //    Integer user_May_09
-    //    Integer user_Jun_09
-    //    Integer user_Jul_09
-    //    Integer user_Aug_09
-    //    Integer user_Sep_09
-    //    Integer user_Oct_09
-    //    Integer user_Nov_09
-    //    Integer user_Dec_09
-    //    Integer user_Jan_10
-    //    Integer user_Feb_10
-    //    Integer user_Mar_10
-    //    Integer user_yearly
-    //
-    //    Integer visit_Apr_09
-    //    Integer visit_May_09
-    //    Integer visit_Jun_09
-    //    Integer visit_Jul_09
-    //    Integer visit_Aug_09
-    //    Integer visit_Sep_09
-    //    Integer visit_Oct_09
-    //    Integer visit_Nov_09
-    //    Integer visit_Dec_09
-    //    Integer visit_Jan_10
-    //    Integer visit_Feb_10
-    //    Integer visit_Mar_10
-    //
-    //    Integer twoPageVisit_Apr_09
-    //    Integer twoPageVisit_May_09
-    //    Integer twoPageVisit_Jun_09
-    //    Integer twoPageVisit_Jul_09
-    //    Integer twoPageVisit_Aug_09
-    //    Integer twoPageVisit_Sep_09
-    //    Integer twoPageVisit_Oct_09
-    //    Integer twoPageVisit_Nov_09
-    //    Integer twoPageVisit_Dec_09
-    //    Integer twoPageVisit_Jan_10
-    //    Integer twoPageVisit_Feb_10
-    //    Integer twoPageVisit_Mar_10
-    //
-    //    Integer visitDuration_Apr_09
-    //    Integer visitDuration_May_09
-    //    Integer visitDuration_Jun_09
-    //    Integer visitDuration_Jul_09
-    //    Integer visitDuration_Aug_09
-    //    Integer visitDuration_Sep_09
-    //    Integer visitDuration_Oct_09
-    //    Integer visitDuration_Nov_09
-    //    Integer visitDuration_Dec_09
-    //    Integer visitDuration_Jan_10
-    //    Integer visitDuration_Feb_10
-    //    Integer visitDuration_Mar_10
-    //
-    //    Integer pageRequest_Apr_09
-    //    Integer pageRequest_May_09
-    //    Integer pageRequest_Jun_09
-    //    Integer pageRequest_Jul_09
-    //    Integer pageRequest_Aug_09
-    //    Integer pageRequest_Sep_09
-    //    Integer pageRequest_Oct_09
-    //    Integer pageRequest_Nov_09
-    //    Integer pageRequest_Dec_09
-    //    Integer pageRequest_Jan_10
-    //    Integer pageRequest_Feb_10
-    //    Integer pageRequest_Mar_10
-    //
-    //    Integer strategyAndPlanningCosts
-    //    String strategyAndPlanningComment
-    //
-    //    Integer designAndBuildCosts
-    //    String designAndBuildComment
-    //
+    Float age_16_19
+    Float age_20_24
+    Float age_25_34
+    Float age_35_44
+    Float age_45_54
+    Float age_55_64
+    Float age_65_74
+    Float age_74Plus
+    Float notToSayAge
+
+    Float sexMale
+    Float sexFemale
+    Float notToSaySex
+
+    Float disabilityYes
+    Float disabilityNo
+
+    Float useInternetEveryDay
+    Float useInternetEveryTwoOrThreeDays
+    Float useInternetOnceAWeek
+    Float useInternetOnceAFortnight
+    Float useInternetOnceAMonth
+    Float useInternetLessOften
+    Float useInternetDontKnow
+
+    Integer user_Apr_09
+    Integer user_May_09
+    Integer user_Jun_09
+    Integer user_Jul_09
+    Integer user_Aug_09
+    Integer user_Sep_09
+    Integer user_Oct_09
+    Integer user_Nov_09
+    Integer user_Dec_09
+    Integer user_Jan_10
+    Integer user_Feb_10
+    Integer user_Mar_10
+    Integer user_yearly
+
+    Integer visit_Apr_09
+    Integer visit_May_09
+    Integer visit_Jun_09
+    Integer visit_Jul_09
+    Integer visit_Aug_09
+    Integer visit_Sep_09
+    Integer visit_Oct_09
+    Integer visit_Nov_09
+    Integer visit_Dec_09
+    Integer visit_Jan_10
+    Integer visit_Feb_10
+    Integer visit_Mar_10
+
+    Integer twoPageVisit_Apr_09
+    Integer twoPageVisit_May_09
+    Integer twoPageVisit_Jun_09
+    Integer twoPageVisit_Jul_09
+    Integer twoPageVisit_Aug_09
+    Integer twoPageVisit_Sep_09
+    Integer twoPageVisit_Oct_09
+    Integer twoPageVisit_Nov_09
+    Integer twoPageVisit_Dec_09
+    Integer twoPageVisit_Jan_10
+    Integer twoPageVisit_Feb_10
+    Integer twoPageVisit_Mar_10
+
+    Integer visitDuration_Apr_09
+    Integer visitDuration_May_09
+    Integer visitDuration_Jun_09
+    Integer visitDuration_Jul_09
+    Integer visitDuration_Aug_09
+    Integer visitDuration_Sep_09
+    Integer visitDuration_Oct_09
+    Integer visitDuration_Nov_09
+    Integer visitDuration_Dec_09
+    Integer visitDuration_Jan_10
+    Integer visitDuration_Feb_10
+    Integer visitDuration_Mar_10
+
+    Integer pageRequest_Apr_09
+    Integer pageRequest_May_09
+    Integer pageRequest_Jun_09
+    Integer pageRequest_Jul_09
+    Integer pageRequest_Aug_09
+    Integer pageRequest_Sep_09
+    Integer pageRequest_Oct_09
+    Integer pageRequest_Nov_09
+    Integer pageRequest_Dec_09
+    Integer pageRequest_Jan_10
+    Integer pageRequest_Feb_10
+    Integer pageRequest_Mar_10
+
+    Integer strategyAndPlanningCosts
+    String strategyAndPlanningComment
+
+    Integer designAndBuildCosts
+    String designAndBuildComment
+
     //    Integer housingAndInfrastructureCosts
     //    String housingAndInfrastructureComment
     //
