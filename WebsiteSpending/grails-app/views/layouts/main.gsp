@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="${createLinkTo(dir:'css', file:'screen.css')}" type="text/css"/>
     <script type="text/javascript" src="${createLinkTo(dir:'js', file:'jquery.js')}"></script>
+<<<<<<< HEAD
     <script type="text/javascript" src="${createLinkTo(dir:'js', file:'yui-min.js')}"></script>
     <script type="text/javascript" src="${createLinkTo(dir:'js', file:'yahoo-dom-event.js')}"></script>
     <script type="text/javascript" src="${createLinkTo(dir:'js', file:'container-min.js')}"></script>
@@ -59,6 +60,11 @@
     });
     </script>
    
+=======
+    <script type="text/javascript" src="${createLinkTo(dir:'js', file:'raphealjs.js')}"></script>
+
+    <g:layoutHead />
+>>>>>>> da42659bd8b94a2adf548f9b9a16488e9c36ac9e
   </head>
   <body>
     <div id="wrapper">
@@ -66,6 +72,7 @@
         <h1>Government web spending</h1>
 
         <ul id="navigation">
+<<<<<<< HEAD
           <li id="surveymenu" class="menuitem surveyitem" >
             <a href="#" class="corners-sml-t">Survey Data</a>
             <g:link controller="survey" action="gotcontent">Did you get what you wanted from the site?</g:link>
@@ -78,6 +85,15 @@
             <g:link controller="survey" action="search">Usefulness of site search</g:link>
             <g:link controller="survey" action="recommend">recommend this website to a?</g:link>
           </li>
+=======
+
+          <!--
+                        <h:panelGroup layout="span" rendered="#{authContext.ifGranted['7']}">
+                          <t:htmlTag styleClass="shift" value="li" rendered="#{page == 'Admins'}"><strong><a href="#{request.contextPath}/secure/admin/list.jsf" class="corners-sml-t">Admins</a></strong></t:htmlTag>
+                          <t:htmlTag styleClass="shift" value="li" rendered="#{page != 'Admins'}"><a href="#{request.contextPath}/secure/admin/list.jsf" class="corners-sml-t">Admins</a></t:htmlTag>
+                        </h:panelGroup>
+          -->
+>>>>>>> da42659bd8b94a2adf548f9b9a16488e9c36ac9e
         </ul><!-- /#navigation -->
 
       </div> <!-- /#header -->

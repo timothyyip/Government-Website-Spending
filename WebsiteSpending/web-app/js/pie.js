@@ -70,6 +70,7 @@ jQuery.pieEngine = {
 
     init: function() {
         $("table").hide();
+<<<<<<< HEAD
         $("#radio1").attr("checked", true);
         jQuery.pieEngine.updatepie(1);
     },
@@ -79,6 +80,12 @@ jQuery.pieEngine = {
         var title = $("span#label"+id).html();
         $("span.chartTitle").html(title);
 
+=======
+        jQuery.pieEngine.updatepie(1);
+    },
+
+    updatepie: function(id) {
+>>>>>>> da42659bd8b94a2adf548f9b9a16488e9c36ac9e
         $('#holder').html("");
         var values = [],
         labels = [];
@@ -87,6 +94,7 @@ jQuery.pieEngine = {
             labels.push($("th", this).text());
         });
         if(values[0]){
+<<<<<<< HEAD
             Raphael("holder", 1000, 1000).pieChart(350, 350, 150, values, labels, "#fff");
         }else{
             $('#holder').html("<h1 style='font-size:15em;text-align:center;color:crimson;'><br/>No data<h1>");
@@ -152,4 +160,11 @@ jQuery.pieEngine = {
         
     }
 
+=======
+            Raphael("holder", 1000, 1000).pieChart(550, 450, 250, values, labels, "#fff");
+        }else{
+            $('#holder').html("<h1 style='font-size:20em;text-align:center;color:crimson;'><br/>No data<h1>");
+        }
+    }
+>>>>>>> da42659bd8b94a2adf548f9b9a16488e9c36ac9e
 };

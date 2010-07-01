@@ -67,9 +67,13 @@ log4j = {
     //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
     //}
 
+<<<<<<< HEAD
     info   'org.codehaus.groovy.grails.commons', // core / classloading
            'org.codehaus.groovy.grails.orm.hibernate',
            'net.sf.ehcache.hibernate'
+=======
+    info   'org.codehaus.groovy.grails.commons' // core / classloading
+>>>>>>> da42659bd8b94a2adf548f9b9a16488e9c36ac9e
     
     error  'org.codehaus.groovy.grails.web.servlet',  //  controllers
            'org.codehaus.groovy.grails.commons', // core / classloading
@@ -79,7 +83,11 @@ log4j = {
            'org.codehaus.groovy.grails.web.mapping', // URL mapping
            
            'org.codehaus.groovy.grails.plugins', // plugins
+<<<<<<< HEAD
             // hibernate integration
+=======
+           'org.codehaus.groovy.grails.orm.hibernate', // hibernate integration
+>>>>>>> da42659bd8b94a2adf548f9b9a16488e9c36ac9e
            'org.springframework',
            'org.hibernate',
            'net.sf.ehcache.hibernate'
