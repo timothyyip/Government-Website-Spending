@@ -101,6 +101,19 @@
             <g:link controller="extcost" action="testing">Testing and evaluation</g:link>
             <g:link controller="extcost" action="total">Total cost</g:link>
           </li>
+
+          <li id="staffmenu" class="menuitem manyitems" >
+            <a href="#" class="corners-sml-t">Staff Data</a>
+            <g:link controller="staffcost" action="scs">SCS</g:link>
+            <g:link controller="staffcost" action="six">Grade 6</g:link>
+            <g:link controller="staffcost" action="seven">Grade 7</g:link>
+            <g:link controller="staffcost" action="seo">SEO/SIO</g:link>
+            <g:link controller="staffcost" action="eo">EO</g:link>
+            <g:link controller="staffcost" action="ao">AO</g:link>
+            <g:link controller="staffcost" action="aa">AA</g:link>
+            <g:link controller="staffcost" action="other">Other</g:link>
+            <g:link controller="staffcost" action="total">Total staff cost</g:link>
+          </li>
         </ul><!-- /#navigation -->
 
       </div> <!-- /#header -->

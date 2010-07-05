@@ -167,11 +167,39 @@ class BootStrap {
                 pageRequest_Feb_10: tokens[counter++].replace(",",""),
                 pageRequest_Mar_10: tokens[counter++].replace(",",""),
 
-                strategyAndPlanningCosts: tokens[counter++].replace(",",""),
-                strategyAndPlanningComment: tokens[counter++],
+                strategyPlanningCosts: tokens[counter++].replace(",",""),
+                strategyPlanningComment: tokens[counter++],
 
-                designAndBuildCosts: tokens[counter++].replace(",",""),
-                designAndBuildComment: tokens[counter++]
+                designBuildCosts: tokens[counter++].replace(",","") ?: 0,
+                designBuildComment: tokens[counter++],
+
+                housingInfrastructureCosts: tokens[counter++].replace(",",""),
+                housingInfrastructureComment: tokens[counter++],
+
+                contentProvisionCosts: tokens[counter++].replace(",",""),
+                contentProvisionComment: tokens[counter++],
+
+                testingEvaluationCosts: tokens[counter++].replace(",",""),
+                testingEvaluationComment: tokens[counter++],
+
+                scs: tokens[counter++],
+                scsComment: tokens[counter++]
+//                grade6: tokens[counter++],
+//                grade6Comment: tokens[counter++],
+//                grade7: tokens[counter++],
+//                grade7Comment: tokens[counter++],
+//                seoSio: tokens[counter++],
+//                seoSioComment: tokens[counter++],
+//                heo: tokens[counter++],
+//                heoComment: tokens[counter++],
+//                eo: tokens[counter++],
+//                eoComment: tokens[counter++],
+//                ao: tokens[counter++],
+//                aoComment: tokens[counter++],
+//                aa: tokens[counter++],
+//                aaComment: tokens[counter++],
+//                otherStaff: tokens[counter++],
+//                otherStaffComment: tokens[counter++]
             ).save()
             println Details.count();
         }

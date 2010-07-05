@@ -13,12 +13,7 @@
     <script type="text/javascript" src="${createLinkTo(dir:'js', file:'g.pie-min.js')}"></script>
     <script type="text/javascript" src="${createLinkTo(dir:'js', file:'pie.js')}"></script>
     <script type="text/javascript" src="${createLinkTo(dir:'js', file:'helvetica.js')}"></script>
-    <style type="text/css" media="screen">
-      #holder {
-        width: 100%;
-        height: 100%;
-      }
-    </style>
+    
   </head>
   <body id="details">
 

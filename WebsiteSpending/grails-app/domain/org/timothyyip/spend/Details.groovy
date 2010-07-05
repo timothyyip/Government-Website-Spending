@@ -160,12 +160,39 @@ class Details {
         pageRequest_Feb_10(nullable:true)
         pageRequest_Mar_10(nullable:true)
 
-     strategyAndPlanningCosts(nullable:true)
-     strategyAndPlanningComment(nullable:true)
+        strategyPlanningCosts(nullable:true)
+        strategyPlanningComment(nullable:true)
 
-     designAndBuildCosts(nullable:true)
-     designAndBuildComment(nullable:true)
+        designBuildCosts(nullable:true)
+        designBuildComment(nullable:true)
 
+        housingInfrastructureCosts(nullable:true)
+        housingInfrastructureComment(nullable:true)
+
+        contentProvisionCosts(nullable:true)
+        contentProvisionComment(nullable:true)
+
+        testingEvaluationCosts(nullable:true)
+        testingEvaluationComment(nullable:true)
+
+        scs(nullable:true)
+        scsComment(nullable:true)
+        grade6(nullable:true)
+        grade6Comment(nullable:true)
+        grade7(nullable:true)
+        grade7Comment(nullable:true)
+        seoSio(nullable:true)
+        seoSioComment(nullable:true)
+        heo(nullable:true)
+        heoComment(nullable:true)
+        eo(nullable:true)
+        eoComment(nullable:true)
+        ao(nullable:true)
+        aoComment(nullable:true)
+        aa(nullable:true)
+        aaComment(nullable:true)
+        otherStaff(nullable:true)
+        otherStaffComment(nullable:true)
     }
 
 
@@ -329,41 +356,40 @@ class Details {
     Integer pageRequest_Feb_10
     Integer pageRequest_Mar_10
 
-    Integer strategyAndPlanningCosts
-    String strategyAndPlanningComment
+    Integer strategyPlanningCosts
+    String strategyPlanningComment
 
-    Integer designAndBuildCosts
-    String designAndBuildComment
+    Integer designBuildCosts
+    String designBuildComment
 
-    //    Integer housingAndInfrastructureCosts
-    //    String housingAndInfrastructureComment
-    //
-    //    Integer contentProvisionCosts
-    //    String contentProvisionComment
-    //
-    //    Integer testingAndEvaluationCosts
-    //    String testingAndEvaluationComment
-    //
-    //    Float scs
-    //    String scsComment
-    //
-    //    Float grade6
-    //    String grade6Comment
-    //    Float grade7
-    //    String grade7Comment
-    //    Float seoSio
-    //    String seoSioComment
-    //    Float heo
-    //    String heoComment
-    //     Float eo
-    //    String eoComment
-    //     Float ao
-    //    String aoComment
-    //    Float aa
-    //    String aaComment
-    //    Float otherStaff
-    //    String otherStaffComment
-    //
+    Integer housingInfrastructureCosts
+    String housingInfrastructureComment
+
+    Integer contentProvisionCosts
+    String contentProvisionComment
+
+    Integer testingEvaluationCosts
+    String testingEvaluationComment
+
+    Float scs
+    String scsComment
+    Float grade6
+    String grade6Comment
+    Float grade7
+    String grade7Comment
+    Float seoSio
+    String seoSioComment
+    Float heo
+    String heoComment
+    Float eo
+    String eoComment
+    Float ao
+    String aoComment
+    Float aa
+    String aaComment
+    Float otherStaff
+    String otherStaffComment
+
     //    Float upliftEmployment
     //    Float upliftAddition
     //    Float staffCost
