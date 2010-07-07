@@ -11,7 +11,7 @@
     <title>Spending Home Page</title>
     <script type="text/javascript" src="${createLinkTo(dir:'js', file:'g.raphael-min.js')}"></script>
     <script type="text/javascript" src="${createLinkTo(dir:'js', file:'g.bar.js')}"></script>
-    <script type="text/javascript" src="${createLinkTo(dir:'js', file:'cost.js')}"></script>
+    <script type="text/javascript" src="${createLinkTo(dir:'js', file:'staff.js')}"></script>
     <script type="text/javascript" src="${createLinkTo(dir:'js', file:'helvetica.js')}"></script>
 
   </head>

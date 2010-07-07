@@ -60,7 +60,7 @@
           <g:each status="i" in="${comments}" var="dataSmall">
             <tr class="${ (i % 2) == 0 ? 'odd' : 'even'}">
               <td >${dataSmall.website}</td>
-              <td >${dataSmall.designBuildComment?.encodeAsHTML()}</td>
+              <td >${dataSmall.designBuildComment}</td>
             </tr>
           </g:each>
           </tbody>

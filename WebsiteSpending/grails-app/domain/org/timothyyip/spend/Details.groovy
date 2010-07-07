@@ -177,10 +177,10 @@ class Details {
 
         scs(nullable:true)
         scsComment(nullable:true)
-        grade6(nullable:true)
-        grade6Comment(nullable:true)
-        grade7(nullable:true)
-        grade7Comment(nullable:true)
+        gradesix(nullable:true)
+        gradesixComment(nullable:true)
+        gradeseven(nullable:true)
+        gradesevenComment(nullable:true)
         seoSio(nullable:true)
         seoSioComment(nullable:true)
         heo(nullable:true)
@@ -193,6 +193,11 @@ class Details {
         aaComment(nullable:true)
         otherStaff(nullable:true)
         otherStaffComment(nullable:true)
+
+        upliftEmployment(nullable:true)
+        upliftAddition(nullable:true)
+        staffCost(nullable:true)
+        staffCostComment(nullable:true)
     }
 
 
@@ -373,10 +378,10 @@ class Details {
 
     Float scs
     String scsComment
-    Float grade6
-    String grade6Comment
-    Float grade7
-    String grade7Comment
+    Float gradesix
+    String gradesixComment
+    Float gradeseven
+    String gradesevenComment
     Float seoSio
     String seoSioComment
     Float heo
@@ -390,11 +395,11 @@ class Details {
     Float otherStaff
     String otherStaffComment
 
-    //    Float upliftEmployment
-    //    Float upliftAddition
-    //    Float staffCost
-    //    String staffCostComment
-    //
+    Float upliftEmployment
+    Float upliftAddition
+    BigDecimal staffCost
+    String staffCostComment
+
     //    Boolean a_accessibility
     //    Boolean aa_accessibility
     //    Boolean manualTesting_accessibility

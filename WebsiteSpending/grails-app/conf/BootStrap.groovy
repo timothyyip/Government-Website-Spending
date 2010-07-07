@@ -183,24 +183,30 @@ class BootStrap {
                 testingEvaluationComment: tokens[counter++],
 
                 scs: tokens[counter++],
-                scsComment: tokens[counter++]
-//                grade6: tokens[counter++],
-//                grade6Comment: tokens[counter++],
-//                grade7: tokens[counter++],
-//                grade7Comment: tokens[counter++],
-//                seoSio: tokens[counter++],
-//                seoSioComment: tokens[counter++],
-//                heo: tokens[counter++],
-//                heoComment: tokens[counter++],
-//                eo: tokens[counter++],
-//                eoComment: tokens[counter++],
-//                ao: tokens[counter++],
-//                aoComment: tokens[counter++],
-//                aa: tokens[counter++],
-//                aaComment: tokens[counter++],
-//                otherStaff: tokens[counter++],
-//                otherStaffComment: tokens[counter++]
+                scsComment: tokens[counter++],
+                gradesix: tokens[counter++],
+                gradesixComment: tokens[counter++],
+                gradeseven: tokens[counter++],
+                gradesevenComment: tokens[counter++],
+                seoSio: tokens[counter++],
+                seoSioComment: tokens[counter++],
+                heo: tokens[counter++],
+                heoComment: tokens[counter++],
+                eo: tokens[counter++],
+                eoComment: tokens[counter++],
+                ao: tokens[counter++],
+                aoComment: tokens[counter++],
+                aa: tokens[counter++],
+                aaComment: tokens[counter++],
+                otherStaff: tokens[counter++],
+                otherStaffComment: tokens[counter++],
+
+                upliftEmployment: tokens[counter++],
+                upliftAddition: tokens[counter++],
+                staffCost: tokens[counter++].replace("&pound;","").replace(",",""),
+                staffCostComment: tokens[counter++]
             ).save()
+            //println Details.staffCost
             println Details.count();
         }
     }

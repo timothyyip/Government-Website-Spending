@@ -21,7 +21,7 @@
     <script type="text/javascript" src="${createLinkTo(dir:'js', file:'menu-min.js')}"></script>
     <script type="text/javascript" src="${createLinkTo(dir:'js', file:'raphealjs.js')}"></script>
 
-     <g:layoutHead />
+    <g:layoutHead />
 
     <script type="text/javascript">
         jQuery(document).ready(function(){
@@ -58,7 +58,7 @@
 
     });
     </script>
-   
+
   </head>
   <body>
     <div id="wrapper">
@@ -93,16 +93,17 @@
           </li>
 
           <li id="costmenu" class="menuitem manyitems" >
-            <a href="#" class="corners-sml-t">Cost Data</a>
+            <a href="#" class="corners-sml-t">External Cost Data</a>
             <g:link controller="extcost" action="planning">Strategy and planning</g:link>
             <g:link controller="extcost" action="design">Design and build</g:link>
             <g:link controller="extcost" action="hosting">Hosting and infrastructure</g:link>
             <g:link controller="extcost" action="content">Content provision</g:link>
             <g:link controller="extcost" action="testing">Testing and evaluation</g:link>
-            <g:link controller="extcost" action="total">Total cost</g:link>
+            <g:link controller="extcost" action="total">Total external cost</g:link>
           </li>
 
-          <li id="staffmenu" class="menuitem manyitems" >
+
+          <li id="tcostmenu" class="menuitem manyitems" >
             <a href="#" class="corners-sml-t">Staff Data</a>
             <g:link controller="staffcost" action="scs">SCS</g:link>
             <g:link controller="staffcost" action="six">Grade 6</g:link>
@@ -112,7 +113,14 @@
             <g:link controller="staffcost" action="ao">AO</g:link>
             <g:link controller="staffcost" action="aa">AA</g:link>
             <g:link controller="staffcost" action="other">Other</g:link>
-            <g:link controller="staffcost" action="total">Total staff cost</g:link>
+            <g:link controller="staffcost" action="total">Total count</g:link>
+          </li>
+
+
+          <li id="staffmenu" class="menuitem manyitems" >
+            <a href="#" class="corners-sml-t">Total Cost Data</a>
+            <g:link controller="extcost" action="total">Total cost (exc staff)</g:link>
+            <g:link controller="staffcost" action="stotal">Total external (inc staff)</g:link>
           </li>
         </ul><!-- /#navigation -->
 

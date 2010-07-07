@@ -331,20 +331,20 @@ Raphael.fn.g.hbarchart = function (x, y, width, height, values, opts) {
     chart.label = function (labels, isRight) {
         labels = labels || [];
         this.labels = paper.set();
-        for (var i = 0; i < len; i++) {
-            for (var j = 0; j < multi; j++) {
-                var  label = paper.g.labelise(multi ? labels[j] && labels[j][i] : labels[i], multi ? values[j][i] : values[i], total);
-                var X = isRight ? bars[i * (multi || 1) + j].x - barheight / 2 + 3 : x + 5,
+        
+            for (var j = 0; j < len; j++) {
+                var  label = paper.g.labelise(labels[j], values[j], total);
+                var X = isRight ? bars[0][j].x - barheight / 2 + 3 : x - 100,
                     A = isRight ? "end" : "start",
                     L;
-                this.labels.push(L = paper.g.text(X, bars[i * (multi || 1) + j].y, label).attr({"text-anchor": A}).insertBefore(covers[0]));
-                if (L.getBBox().x < x + 5) {
-                    L.attr({x: x + 5, "text-anchor": "start"});
-                } else {
-                    bars[i * (multi || 1) + j].label = L;
-                }
+                this.labels.push(L = paper.g.text(X,  bars[0][j].y, label).attr({"text-anchor": A}).insertBefore(covers[0]));
+//                if (L.getBBox().x < x + 5) {
+//                    L.attr({x: x +100, "text-anchor": "start"});
+//                } else {
+//                     bars[7][j].label = L;
+//                }
             }
-        }
+        
         return this;
     };
     chart.hover = function (fin, fout) {
@@ -394,5 +394,6 @@ Raphael.fn.g.hbarchart = function (x, y, width, height, values, opts) {
     chart.push(bars, covers, covers2);
     chart.bars = bars;
     chart.covers = covers;
+    
     return chart;
 };
